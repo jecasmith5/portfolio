@@ -1,0 +1,41 @@
+@keyframes open {
+  0%{
+    transform: rotate(20deg);
+  }
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(-20deg);
+  }
+}
+body{
+  background-image: radial-gradient(circle at top left,black,aqua);
+background-size: cover;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+h1{
+  color: silver;
+}
+ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+li:hover{
+  animation: open 4s linear;
+}
+a{
+  color: white;
+  font-size: 32px;
+}
+p{
+  text-align:center;
+  font-size: 40px;
+  align-items: center;
+}

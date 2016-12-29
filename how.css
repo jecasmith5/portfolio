@@ -1,0 +1,40 @@
+@@keyframes rotate {
+  0%{
+    transform: rotate(50deg);
+  }
+100%{
+ transform: rotate(-50deg);
+}
+
+   }
+
+
+
+body{
+  background-image: radial-gradient(circle at top left,black,aqua);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+}
+ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a{
+  color: #C0C0C0;
+}
+.images{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+img:hover{
+  animation: rotate 15s linear 0;
+
+}

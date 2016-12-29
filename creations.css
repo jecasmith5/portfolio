@@ -1,0 +1,13 @@
+body{
+  background-image: radial-gradient(circle at top left,black,aqua);
+  font-size: 32px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a{
+  color: white;
+}
